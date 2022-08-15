@@ -1,6 +1,5 @@
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
-#include "Example.hpp"
 
 // Define some matchers
 using ::testing::StartsWith;
@@ -22,3 +21,4 @@ using ::testing::HasSubstr;
 using ::testing::Field;
 using ::testing::Property;
 using ::testing::Truly;
+

@@ -19,8 +19,8 @@ FetchContent_MakeAvailable(googletest)
 include_directories(
     include
 )
-add_library(Example STATIC 
-    src/Example.cpp
+add_library(AtmMachine STATIC 
+    src/AtmMachine.cpp
 )
 
 # Prepare things to test it and run tests including our testing folder "test"

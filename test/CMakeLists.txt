@@ -9,7 +9,7 @@ add_executable(example_test
 target_link_libraries(example_test 
     GTest::gtest_main 
     GTest::gmock
-    Example
+    AtmMachine
 )
 
 # Include CMake module for GoogleTest and automatically add all the tests in our test program
