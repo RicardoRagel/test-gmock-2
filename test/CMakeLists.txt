@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.14)    # or the version you have installed
 
+# Include mock classes (that are in the mock folder)
+include_directories(mock)
+
 # The test program
 add_executable(example_test 
     example_test.cpp

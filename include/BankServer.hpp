@@ -7,6 +7,9 @@
     Abstract Class that just describes the interface of the real class (implementation)
 
     Mandatory: virtual destructor.
+
+    Notice that: It should be the Base Class of the Real BankServer (in production), and
+    it will also be the base class of our Mock BankSever (check it in the test/mock folder).
 */
 
 class BankServer
