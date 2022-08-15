@@ -8,14 +8,16 @@
     
     The class that is under test.
 
-    It uses BankServer as an injected dependency.
+    It uses BankServer as an injected dependency, in Dependency Injection 
+    (https://en.wikipedia.org/wiki/Dependency_injection) terminology, AtmMachine 
+    is a client of the BankServer service.
 */
 
 class AtmMachine
 {
   public:
     
-    // Constructor receiving the injected dependency bankserver
+    // Constructor receiving the injected dependency bankserver.
     // Notice that: It is receiving a pointer to the base abstract class BankServer. 
     // When the real class (the implementation) exists and it is inheriting from BankServer, 
     // I will can use (receive) it in my AtmMachine, because I will be receiving a Child Class
