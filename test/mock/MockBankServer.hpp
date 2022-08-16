@@ -4,7 +4,7 @@
 /*
     Mock BankServer class: 
     
-    The Mock of our dependency, BankServer
+    The Mock of our AtmMachine dependency: the BankServer
 
     Mandatory: it must override all the bankserver functions, otherwise it will be not possible
     to create a MockBankServer object due to BankServer is Abstract.

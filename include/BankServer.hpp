@@ -4,7 +4,7 @@
 /*
     BankServer class: 
     
-    Abstract Class that just describes the interface of the real class (implementation)
+    Abstract Class that just describes the interface that the real class will have (implementation)
 
     Mandatory: virtual destructor.
 
