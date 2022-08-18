@@ -17,6 +17,6 @@ class MockBankServer : public BankServer
         MOCK_METHOD(void, Disconnect, (), (override));
         MOCK_METHOD(void, Credit, (int, int), (override));
         MOCK_METHOD(void, Debit, (int, int), (override));
-        MOCK_METHOD(bool, DoubleTransaction, (int, int, int), (override));
+        MOCK_METHOD(int,  DoubleTransaction, (int, int, int), (override));
         MOCK_METHOD(int,  GetBalance, (int), (const, override));
 };
