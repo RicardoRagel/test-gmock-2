@@ -64,6 +64,16 @@ target_link_libraries(example_test_6
     AtmMachine
 )
 
+# The test program 7
+add_executable(example_test_7
+    example_test_7.cpp
+)
+target_link_libraries(example_test_7
+    GTest::gtest_main 
+    GTest::gmock
+    AtmMachine
+)
+
 # Include CMake module for GoogleTest and automatically add all the tests in our test program
 include(GoogleTest)
 gtest_discover_tests(example_test_1) # alternative: add_test(test1 example_test_1)
@@ -72,3 +82,4 @@ gtest_discover_tests(example_test_3)
 gtest_discover_tests(example_test_4)
 gtest_discover_tests(example_test_5)
 gtest_discover_tests(example_test_6)
+gtest_discover_tests(example_test_7)
