@@ -13,3 +13,9 @@ In the case of this repository, we will use **gMock Classes**, defining them, an
 Basically, it means create a "dummy" (although this term should not be used for a mock) interface of a dependency that our program has, so we can test our program without the necessity of that dependency is there and we can use it. Check [this video](https://www.youtube.com/watch?v=vxCH4AuVRgo&t=79s) to get a really good example about it. Take also into account that the example used in the video is the same than this repository is also using:
 
 ![](example_img.png)
+
+## References
+
+* [Google Test documentation](http://google.github.io/googletest/)
+* [Tutorial video](https://www.youtube.com/watch?v=vxCH4AuVRgo&t=79s)
+* [Tutorial repository](https://github.com/ourarash/cpp-template). Notice that it uses [Bazel](https://bazel.build/) instead of CMake.
